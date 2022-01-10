@@ -7,6 +7,5 @@ public class StringDemo {
 		System.out.printf("on 的位置在 %d\n", words.indexOf("on"));
 		System.out.printf("off 的位置在 %d\n",words.indexOf("off"));
 		System.out.println(words.split(" ").length);
-		//
-	}
+
 }
