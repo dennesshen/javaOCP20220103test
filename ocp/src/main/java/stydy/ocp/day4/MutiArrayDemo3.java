@@ -11,10 +11,15 @@ public class MutiArrayDemo3 {
 				{ {10, 5} }
 		};
 		
-		int sum = Arrays.stream(scores)
+		int sum1 = Arrays.stream(scores)
 				.flatMapToInt(n1 -> Arrays.stream(n1).flatMapToInt(n2 -> Arrays.stream(n2)))
 				.sum();
-		System.out.println(sum);
+		
+		int sum2 = Arrays.stream(scores)
+					.flatMap(n1 -> Arrays.stream(n1))
+					.flatMapToInt(n2 -> Arrays.stream(n2)).sum();
+		System.out.println(sum1);
+		
 	}
 
 }
