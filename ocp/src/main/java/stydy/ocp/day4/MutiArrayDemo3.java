@@ -19,6 +19,8 @@ public class MutiArrayDemo3 {
 					.flatMap(n1 -> Arrays.stream(n1))
 					.flatMapToInt(n2 -> Arrays.stream(n2)).sum();
 		System.out.println(sum1);
+		System.out.println(sum2);
+
 		
 	}
 
