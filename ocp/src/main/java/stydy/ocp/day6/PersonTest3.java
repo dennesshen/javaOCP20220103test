@@ -34,13 +34,27 @@ public class PersonTest3 {
 //		System.out.println(s1.getClass().getSimpleName());
 		
 		//請問平均分數
-		double avgOfScore =persons.stream().filter(notNullFilter)
-										   .filter(p -> p.getClass().getSimpleName().equals("Student"))
-										   .map(p -> (Student)p )
-										   .mapToInt(p -> p.getScore()).average().getAsDouble();
+		double avgOfScore = persons.stream().filter(notNullFilter)
+										    .filter(p -> p.getClass().getSimpleName().equals("Student"))
+										    .map(p -> (Student)p )
+										    .mapToInt(p -> p.getScore()).average().getAsDouble();
 		System.out.println(avgOfScore);
 		
+		//請問平均薪資
+		double avgOfSalary = persons.stream().filter(notNullFilter)
+											 .filter(p -> p.getClass().getSimpleName().equals("Teacher"))
+											 .map(p -> (Teacher)p)
+											 .mapToInt(p ->  p.getSalary())
+											 .peek(System.out::println)
+											 .average().getAsDouble();
+		System.out.printf("平均薪資為%.1f\n", avgOfSalary);
+		// 請問姓名總字數 = ?
 		
+		int count = persons.stream().filter(notNullFilter)
+									.map(p -> p.getName())
+									.mapToInt(String::length)
+									.sum();
+		System.out.println(count);
 		
 	}
 }

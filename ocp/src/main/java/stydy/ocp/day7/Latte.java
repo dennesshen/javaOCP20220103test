@@ -1,4 +1,4 @@
-package stydy.ocp.day7.drinkStore;
+package stydy.ocp.day7;
 
 public class Latte implements Drink{
 	private String name = "牛奶";

@@ -1,4 +1,4 @@
-package stydy.ocp.day7.drinkStore;
+package stydy.ocp.day7;
 
 import java.util.Optional;
 import java.util.Random;
