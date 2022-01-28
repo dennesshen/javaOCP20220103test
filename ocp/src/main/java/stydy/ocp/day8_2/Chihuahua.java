@@ -1,12 +1,6 @@
 package stydy.ocp.day8_2;
 
-public class Chihuahua implements Dog{
-
-	@Override
-	public void eat() {
-		System.out.println("吃狗飼料");
-	}
-
+public class Chihuahua extends AbstractDog{
 	@Override
 	public void skill() {
 		System.out.println("賣萌");		
