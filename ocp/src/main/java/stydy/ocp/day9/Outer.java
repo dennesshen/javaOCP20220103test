@@ -3,7 +3,7 @@ package stydy.ocp.day9;
 public class Outer {
 	static int sx = 9;
 	int x = 7;
-			
+	// 一般內部類別		
 	class Inner {
 		int x = 77;
 		void callme() {
@@ -15,5 +15,15 @@ public class Outer {
 			System.out.println(Outer.sx);
 		}
 	}
+	
+	//靜態內部類別
+	static class SInner{
+		static void printMe() {
+			System.out.println("printMe");
+		}
+	}
+	
+	
+	
 
 }
