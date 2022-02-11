@@ -1,4 +1,4 @@
-package stydy.ocp.day3;
+package stydy.ocp.day03;
 
 public class StringDemo {
 	public static void main(String[] args) {

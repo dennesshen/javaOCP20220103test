@@ -1,4 +1,4 @@
-package stydy.ocp.day2;
+package stydy.ocp.day02;
 
 import java.util.Arrays;
 

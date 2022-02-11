@@ -1,4 +1,4 @@
-package stydy.ocp.day1;
+package stydy.ocp.day01;
 
 public class HelloWorld {
 

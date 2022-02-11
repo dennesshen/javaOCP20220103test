@@ -1,4 +1,4 @@
-package stydy.ocp.day2;
+package stydy.ocp.day02;
 
 public class IntArrayDemo4 {
 	public static void main(String[] args) {
