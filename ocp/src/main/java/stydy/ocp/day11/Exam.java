@@ -17,15 +17,13 @@ public class Exam implements Comparable<Exam>{
 	}
 
 	public Exam(String name, Integer score) {
-		super();
 		this.name = name;
 		this.score = score;
 	}
 	
 	@Override
 	public int compareTo(Exam o) {
-		// TODO Auto-generated method stub
-		return o.getScore();
+		return score - o.getScore();
 	}
 
 	
