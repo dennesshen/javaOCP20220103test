@@ -19,7 +19,7 @@ public class  Cookies {
 		notifyAll();
 	}
 	
-	pubic synchronized void eat(Integer num) {
+	public synchronized void eat(Integer num) {
 		while (empty) {
 			try {
 				wait();
