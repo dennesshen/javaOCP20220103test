@@ -1,0 +1,5 @@
+現在時間:Fri Mar 25 19:25:26 CST 2022
+Hello JavaFri Mar 25 19:25:27 CST 2022現在時間:Fri Mar 25 19:25:46 CST 2022
+Hello JavaFri Mar 25 19:25:46 CST 2022現在時間:Fri Mar 25 19:26:14 CST 2022Hello JavaFri Mar 25 19:26:14 CST 2022
+現在時間:Fri Mar 25 19:28:00 CST 2022Hello JavaFri Mar 25 19:28:00 CST 2022
+現在時間:Fri Mar 25 19:28:37 CST 2022Hello JavaFri Mar 25 19:28:37 CST 2022
